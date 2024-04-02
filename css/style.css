@@ -1,0 +1,108 @@
+/* Geral */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background-color: #f5f7fa;
+}
+
+.container{
+    margin-left: 1.8em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+}
+
+/* .content{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* Estilo dos botões */
+.row button{
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 15px;
+    border-radius: 30px;
+    transition: .5s;
+    box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #ffff;
+}
+
+/* Ação de passar o cursor por cima dos botões */
+.row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px #fff;
+    background-color: #fff;
+}
+
+/* Estilização do campo de entrada de números */
+.display #scan{
+    margin-bottom: .3em;
+    width: auto;
+    height: 70px;
+    font-size: 40px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #ffffff;
+}
+
+/* Estilização do botão de igual */
+#eval{
+    background: #26d126;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #5bff5b,
+        inset -5px -5px 8px #02de02;
+        
+}
+
+#eval:hover{
+    box-shadow: inset 5px 5px 8px #2eb82e,
+    inset -5px -5px 8px #33cc33;
+}
+
+/* Estilização do botão de limpar tudo */
+#ac{
+    background: #1cc6ff;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #66d9ff,
+        inset -5px -5px 8px #00ace6;
+}
+
+#ac:hover{    
+    box-shadow: inset 5px 5px 8px #00ace6,
+        inset -5px -5px 8px #00ace6;
+}
+
+/* Estilização de botão de apagar um digito por vez */
+#ce{
+    background: #ff3399;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #ff64b1,
+        inset -5px -5px 8px #db006d;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 5px 8px #e60073,
+        inset -5px -5px 8px #ff3399;
+}
